@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es" >
+    <head>
+        <title>..:: Ejemplo de JS con Formulario::..</title>
+
+    </head>
+
+    <body>
+        <h1>Formulario Sencillo</h1>
+        <form action="#" method="GET" >
+            <p>
+                Valor 1: <input type="text" name="v1" id="id1" />
+            </p>
+            <p>
+                Valor 2: <input type="text" name="v2" id="id2" />
+            </p>
+            <input type="button" value="SUMAR" onclick="sumar();"></button>
+            <input type="button" value="RESTAR" onclick="restar();"></button>
+            <input type="button" value="MULTIPLICAR" onclick="multiplicar();"></button>
+            <input type="button" value="DIVIDIR" onclick="dividir();"></button>
+            <input type="reset" value="LIMPIAR" >
+        </form>
+        <p>
+            <h2>La respuesta es</h2>
+            <div id="rpta"></div>
+        </p>
+        <script src="./js/suma.js"></script>
+        <script src="./js/resta.js"></script>
+        <script src="./js/dividir.js"></script>
+        <script src="./js/multiplicar.js"></script>
+    </body>
+
+
+</html>
+
+
+
+<!--Hacer las demas operaciones aritmeticas-->
